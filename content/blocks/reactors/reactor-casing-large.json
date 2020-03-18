@@ -1,0 +1,11 @@
+{
+	"type": "Wall",
+	"category": "defense",
+	"requirements": [
+		"titanium/24",
+		"graphite/12",
+		"lead/12"
+	],
+	"health": 2200,
+	"size": 2
+}

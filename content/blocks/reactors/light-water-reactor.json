@@ -1,0 +1,14 @@
+{
+	"category": "power",
+	"requirements": [
+		"titanium/1000",
+		"lead/2500",
+		"thorium/600",
+		"silicon/300",
+		"graphite/300"
+	],
+	"update": true,
+	"solid": true,
+	"breakable": true,
+	"size": 3
+}

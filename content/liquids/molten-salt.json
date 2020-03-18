@@ -1,0 +1,7 @@
+{
+	"temperature": 1.5,
+	"heatCapacity": 10,
+	"viscosity": 0.6,
+	"effect": "melting",
+	"color": "#eae5bf"
+}
