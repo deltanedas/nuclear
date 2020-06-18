@@ -2,7 +2,7 @@
 	"name": "nuclear",
 	"displayName": "[green]Nuclear[]",
 	"author": "DeltaNedas",
-	"description": "Adds more depth to nuclear power.\nrequires [stat]DeltaNedas/resources[].",
+	"description": "Adds more depth to nuclear power.\n[stat]Requires [#00aaff]DeltaNedas/resources[].",
 	"version": "0.1.0",
 	"minGameVersion": "104",
 	"dependencies": ["resources"]

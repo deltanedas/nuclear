@@ -7,8 +7,10 @@
 		"silicon/300",
 		"graphite/300"
 	],
+	"size": 3,
+
 	"update": true,
 	"solid": true,
 	"breakable": true,
-	"size": 3
+	"hasItems": true
 }

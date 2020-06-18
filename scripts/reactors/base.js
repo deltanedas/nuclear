@@ -40,17 +40,6 @@ const ReactorEntity = {
 
 	setWarmup(set) {this._warmup = set;},
 	getWarmup() {return this._warmup;},
-
-	write(stream) {
-		stream.writeFloat(this._progress);
-		stream.writeInt(this._fuel ? this._fuel.id : -1);
-		stream.writeChar(this._rodInsertion);
-	},
-	read(stream) {
-		this._progress = stream.readFloat();
-		this._fuel = Vars.content.getByID(ContentType.item, stream.readInt());
-		this._rodInsertion = stream.readChar();
-	}
 };
 
 const lwr = extendContent(Block, "light-water-reactor", {
@@ -119,18 +108,6 @@ const lwr = extendContent(Block, "light-water-reactor", {
 		if (item.fissile !== this.fissile) return false;
 		const ent = tile.entity;
 		return ent.items.get(item) < this.itemCapacity;
-	},
-
-	configured(tile, player, value) {
-		const e = tile.entity;
-		switch (value) {
-		case 0:
-			e.rodInsertion += 10;
-			break;
-		case 1:
-			e.rodInsertion -= 10;
-			break;
-		}
 	},
 
 	outputsItems: () => true

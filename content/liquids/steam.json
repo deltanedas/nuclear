@@ -1,0 +1,8 @@
+{
+	"viscosity": 0,
+	"heatCapacity": 0.2,
+	"temperature": 5,
+	"effect": "burning",
+	"color": "#adadadbb",
+	"barColor": "#adadad"
+}
